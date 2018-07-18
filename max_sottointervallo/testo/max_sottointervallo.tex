@@ -1,0 +1,52 @@
+\renewcommand{\nomebreve}{Trovare il massimo sottointervallo crescente}
+\renewcommand{\titolo}{Max sottointervallo crescente}
+
+\introduzione{}
+
+Ricevete in input una sequenza di $N$ numeri interi.
+In output dovete proporre un sottointervallo strettamente crescente di interi estratta dalla sequenza in input che sia massimo in termini di numero di elementi. 
+
+
+\sezionetesto{Dati di input}
+La prima riga del file \verb'input.txt' contiene un numero intero e positivo $N$, la lunghezza della sequenza in input.
+La seconda riga contiene, in ordine, gli $N$ numeri della sequenza.
+
+\sezionetesto{Dati di output}
+La prima riga del file \verb'output.txt' deve contenere l'intero che rappresenta di quanti numeri risulta composto il massimo sottointervallo crescente.
+La seconda riga contiene, i numeri del massimo sotto intervallo crescente.
+Nel caso vi sia più di un sottointervallo massimo, cioè con lo stesso numero di elementi, si dia in output solamente il primo incontrato nella sequenza di input.
+
+% Esempi
+\sezionetesto{Esempio di input/output}
+\esempio{
+6
+
+7 2 2 4 3 9
+}{
+2
+
+2 4}
+\esempio{
+12
+
+15 24 22 42 51 99 4 3 5 6 7 3
+}{
+4
+
+22 42 51 99}
+
+% Assunzioni
+\sezionetesto{Assunzioni e note}
+\begin{itemize}[nolistsep, noitemsep]
+  \item $2 \le N \le 1\,000\,000$.
+\end{itemize}
+  
+  \section*{Subtask}
+  \begin{itemize}
+    \item \textbf{Subtask 0 [10 punti]:} i due esempi del testo.
+    \item \textbf{Subtask 1 [10 punti]:} $N = 3$.
+    \item \textbf{Subtask 2 [20 punti]:} $N \leq 5$.
+    \item \textbf{Subtask 3 [20 punti]:} $N \leq 20$.
+    \item \textbf{Subtask 4 [40 punti]:} nessuna restrizione.
+  \end{itemize}
+  

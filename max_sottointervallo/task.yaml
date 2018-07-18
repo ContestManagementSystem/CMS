@@ -1,0 +1,5 @@
+memory_limit: 256
+name: max_sottointervallo
+time_limit: 1.0
+title: Trovare il massimo sottointervallo crescente
+token_mode: infinite
