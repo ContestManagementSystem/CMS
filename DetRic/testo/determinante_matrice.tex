@@ -1,0 +1,59 @@
+\renewcommand{\nomebreve}{determinante\_matrice}
+\renewcommand{\titolo}{Calcolo Determinante con Ricorsione}
+
+\introduzione{}
+
+Ricevete in input la dimensione $n$ di una matrice quadrata $A$ ed i suoi coefficienti.
+Dovete calcolare il suo determinante.
+
+\sezionetesto{Dati di input}
+La prima linea del file \verb'input.txt' contiene l'intero $n$: la dimensione della matrice $A$.
+Le successive $n$ righe contengono i coefficienti della matrice $A$: queste $n$ linee del file codificano le $n$ righe di $A$ , ogni riga consta quindi di $n$ numeri interi separati da spazi. 
+ 
+\sezionetesto{Dati di output}
+Nella prima linea del file \verb'output.txt' occorre riportare la dimensione di $A$: quindi il valore $n$.
+La seconda riga deve contenere l'intero che equivale al valore calcolato del determinante di $A$.
+   
+% Esempi
+\sezionetesto{Esempio di input/output}
+\esempio{2
+
+1 0
+
+0 1
+
+}{2
+
+ 1
+ }
+
+
+\esempio{4
+
+0 3 2 1
+
+1 2 3 4
+
+2 0 1 0
+
+0 -2 1 1
+
+}{4
+
+-35
+
+}
+
+% Assunzioni
+\sezionetesto{Assunzioni}
+\begin{itemize}[nolistsep, noitemsep]
+  \item La dimensione della matrice A in input sarà al massimo $6$.
+\end{itemize}
+  
+  \section*{Subtask}
+  \begin{itemize}    
+    \item \textbf{Subtask 0 [20 punti]:} $n=3$.
+    \item \textbf{Subtask 1 [20 punti]:} $n=4$.
+    \item \textbf{Subtask 2 [60 punti]:} nessuna restrizione (oltre quella sul valore massimo della dimensione di A espressa nella sezione di ``Assunzioni'' generali).
+  \end{itemize}
+

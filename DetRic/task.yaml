@@ -1,0 +1,5 @@
+memory_limit: 256
+name: determinante__ricorsivo
+time_limit: 5.0
+title: Determinante matrici calcolo ricorsivo
+token_mode: infinite

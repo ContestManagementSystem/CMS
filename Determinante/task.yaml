@@ -1,0 +1,5 @@
+memory_limit: 256
+name: det_matrici
+time_limit: 3.0
+title: Determinante matrici quadrate
+token_mode: infinite
